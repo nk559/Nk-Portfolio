@@ -10,6 +10,8 @@ function App() {
       <h1>Components</h1>
        <Class/> 
        <Function/> 
+       hi
+       <h1>vinoth</h1>
     {/* <Hooks/> */}
     </div>
   );
