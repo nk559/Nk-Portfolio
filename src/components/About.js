@@ -2,6 +2,8 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import '../css/About.css';
 import Profile from '../Assets/profile.JPG';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebookF, faTwitter, faLinkedinIn, faInstagram, faGithub } from '@fortawesome/free-brands-svg-icons';
 function About() {
   return (
     <div>
@@ -23,7 +25,7 @@ Outside of professional development, I am committed to lifelong learning and per
         </div>
         <div className='right-side'>
         <div className='about-image'>
-            <img src={Profile} alt='img not found' className='img'/>
+            <img src={Profile} alt='img not found' className='img-about'/>
         </div>
         <div className='social-button'>
             <div className='social'>

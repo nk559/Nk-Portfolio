@@ -8,7 +8,7 @@ function Home() {
   return (
     <div className='home-section'>
         <div className='profile-photo'>
-            <img src={Profilephoto} className='photo' alt='not found'/>
+            <img src={Profilephoto} className='photo-home' alt='not found'/>
         </div>
         <div className='content'>
             <h1 className='nk'>Hi,I'm NK...</h1>

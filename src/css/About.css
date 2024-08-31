@@ -1,7 +1,7 @@
 .about-section{
     display: flex;
     padding-top: 50px;
-
+    width: 100%;
 }
 .left-side{
     padding-right:200px;
@@ -15,7 +15,7 @@ h1{
     font-weight: 700;
     font-family: Poppins;
 }
-.img{
+.img-about{
     width:400px;
     height: 400px;
     filter:grayscale(100%);
@@ -41,6 +41,11 @@ h1{
     font-family: Poppins;
     font-weight: 700;
 }
+.social-media:hover{
+    background-color:rgb(217, 44, 226);
+    color:white;
+
+}
 .education{
     width:400px;
     padding: 10px;
@@ -60,6 +65,8 @@ h1{
 @media (max-width:768px){
     .about-section{
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
+        height: 1200px;
+        margin-top: 350px;
     }
 }

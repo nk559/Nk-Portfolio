@@ -11,14 +11,14 @@
     height: 300px;
    
 }
-.photo{
+.photo-home{
     width:399px;
     height:399px;
     border-radius: 50%;
     margin-left: 200px;
     filter: grayscale(100%);
     position: absolute;
-    top:250px;
+    top:200px;
 }
 .content{
     width:700px;
@@ -33,6 +33,7 @@
     font-style: normal;
 }
 .nk-para{
+    width: 550px;
     margin-left: 40px;
     font-family: Poppins;
     letter-spacing: 1px;
