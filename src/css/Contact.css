@@ -1,0 +1,45 @@
+.contact-me{
+    margin-left: 250px;
+    margin-top:80px;
+    width: fit-content;
+    height: 1100px;
+}
+.contact-subhead{
+    font-family: Poppins;
+    font-size: 18px;
+    margin-top: 40px;
+}
+input,textarea{
+    margin-left:50px;
+    padding: 20px;
+    width:800px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+.submit{
+    margin-left:688px;
+    margin-top: 20px;
+    padding:20px;
+    width: 200px;
+    border-radius: 20px;
+    font-weight: 700;
+    font-family: Poppins;
+    background-color: #0D6EfD;
+    color:#fff;
+    border: none;
+}
+@media (max-width:768px){
+    .contact-me{
+        margin-left: 50px;
+    }
+    .contact-heading{
+        width:400px;
+    }
+    input,textarea{
+        width: 400px;
+    }
+    .submit{
+        margin-left: 300px;
+    }
+
+}

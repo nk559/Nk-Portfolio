@@ -1,0 +1,89 @@
+.home-section{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    padding-top:125px ;
+    gap:200px;
+    
+}
+.profile-photo{
+    width: 700px;
+    height: 300px;
+   
+}
+.photo{
+    width:399px;
+    height:399px;
+    border-radius: 50%;
+    margin-left: 200px;
+    filter: grayscale(100%);
+    position: absolute;
+    top:250px;
+}
+.content{
+    width:700px;
+    height:300px;
+}
+.nk{
+    color:gray;
+    font-family: Poppins;
+    font-weight: 700;
+    letter-spacing: normal;
+    font-stretch: normal;
+    font-style: normal;
+}
+.nk-para{
+    margin-left: 40px;
+    font-family: Poppins;
+    letter-spacing: 1px;
+    font-stretch: normal;
+    font-style: normal;
+}
+.user-download{
+    margin-top:50px;
+    margin-left:40px;
+    display: flex;
+    gap:30px;
+
+}
+
+.get-in-touch{
+    width:150px;
+    padding: 10px;
+    background-color: rgb(43, 41, 41);
+    border-radius:8px;
+    color:#fff;
+    font-family: Poppins;
+}
+.download{
+    width:150px;
+    padding: 10px;
+    border-radius:8px;
+    background-color: #fff;
+    color:rgb(43, 41, 41);
+    font-family: Poppins;
+    font-weight: 700;
+}
+@media screen and (max-width:768px) {
+    .home-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .nk{
+        margin-left:50px;
+    }
+    .nk-para{
+        margin-left: 100px;
+        
+    }
+    .user-download{
+        margin-top:50px;
+        margin-left:40px;
+        display: flex;
+        flex-direction: column;
+        gap:30px;
+         margin-left: 100px;
+    
+    }
+    
+}

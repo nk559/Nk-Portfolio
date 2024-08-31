@@ -1,0 +1,47 @@
+.education-container{
+    margin:0;
+    padding:0;
+    margin-top: 50px;
+    margin:100px;
+}
+.education-title{
+    margin-left: 0px;
+}
+.education-subcontainer{
+    display: flex;
+    margin-left: 50px;
+    gap:100px;
+}
+.degree{
+    margin-left: 20px;
+}
+.education-item{
+    width:650px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}
+.skills{
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    width:500px;
+    padding-left: 20px;
+}
+.certifications{
+    display:flex;
+    gap:100px;
+    margin-left: 50px;
+
+}
+
+.certificate-image{
+    width:600px;
+    padding:25px;
+}
+.course{
+    margin-left:200px;
+}
+.certificate-image2{
+    width: 450px;
+    padding:25px;
+}
+.course2{
+    margin-left:150px;
+}

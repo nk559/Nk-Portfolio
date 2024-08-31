@@ -1,0 +1,97 @@
+/* Basic styles for the navbar */
+.navbar {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    justify-content: space-between;
+    text-align: center;
+}
+
+/* Styles for the heading section */
+.heading {
+    padding-top: 40px;
+    margin-left: 50px;
+    font-family: Poppins;
+}
+
+/* Styles for the heading link */
+.heading-left {
+    color: #0D6EfD;
+    text-decoration: none;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/* Styles for the menu icon */
+.menu-icon {
+    display: none;
+    cursor: pointer;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+.hamburger {
+    width: 25px;
+    height: 3px;
+    background-color: gray;
+    margin: 5px 0;
+}
+
+/* Styles for the navigation links */
+.nav-right {
+    display: flex;
+    gap: 50px;
+    list-style-type: none;
+    margin-right: 100px;
+    padding-top: 20px;
+}
+
+/* Styles for the navigation links in mobile view */
+.nav-links {
+    color: gray;
+    text-decoration: none;
+    font-family: Poppins;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.contact {
+    background-color: #0D6EfD;
+    border: 2px solid #0D6EfD;
+    color: white;
+    border-radius: 5px;
+    width: 99px;
+    height: 30px;
+}
+
+/* Hover effect for navigation links */
+.nav-links:hover {
+    color: #0D6EfD;
+}
+
+/* Mobile view adjustments */
+@media (max-width: 768px) {
+    .menu-icon {
+        display: flex;
+        margin-left: 400px;
+        margin-top:20px;
+    }
+
+    .nav-right {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 80px;
+        background-color: white;
+        width: 100%;
+        margin-left: 100px;
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .nav-right.active {
+        display: flex;
+    }
+}

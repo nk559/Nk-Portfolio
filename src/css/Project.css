@@ -1,0 +1,38 @@
+.container{
+    margin:0;
+    padding:0;
+    display: flex;
+    padding-top:100px;
+    gap:20px;
+    margin-left: 40px;
+    height: fit-content;
+}
+
+.sub-container{
+    width:450px;
+    height: 650px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: black;
+}
+.img-pro{
+    width:350px;
+    height:350px;
+    padding: 45px;
+}
+h3{
+   padding-left: 30px;
+   width:400px;
+   font-family: Poppins;
+}
+.para-content{
+   font-size: 10px;
+   width:400px;
+   font-family: Poppins;
+}
+@media (max-width: 768px) {
+    .container{
+        display:flex;
+        flex-direction: column;
+        padding: 50px;
+    }
+}
