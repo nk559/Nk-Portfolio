@@ -3,6 +3,7 @@ import React,{useState,useEffect} from 'react';
 import '../css/Home.css'
 import {Link} from 'react-router-dom'
 import Profilephoto from '../Assets/profile.JPG'
+import Resume from '../Assets/Nareshkumar_ATS.pdf';
 function Home() {
  
   return (
@@ -16,7 +17,9 @@ function Home() {
             </p>
             <div className='user-download'>
               <Link to='/contact'> <button className='get-in-touch'>Get in touch</button></Link>
-                <button className='download'>Download CV</button>
+              <a href={Resume} download="Nareshkumar_ATS.pdf">
+            <button className='download'>Download CV</button>
+          </a>
             </div>
         </div>
     </div>

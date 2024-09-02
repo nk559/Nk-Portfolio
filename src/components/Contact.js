@@ -9,7 +9,7 @@ function Contact() {
     subject: '',
     message: '',
   });
-
+ 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
@@ -17,10 +17,11 @@ function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
+    // Send the email using EmailJS
     emailjs.send(
       'service_v4a4n1d', // Replace with your EmailJS Service ID
       'template_j00xoim', // Replace with your EmailJS Template ID
-      formData,
+      formData, // The form data that includes name, email, subject, and message
       'z18Vs0M6fx5ixQIW9' // Replace with your EmailJS User ID
     )
     .then((result) => {
